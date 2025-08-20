@@ -1,0 +1,80 @@
+{"input": "The manual data transfer between systems was implemented as a temporary fix 18 months ago.", "output": "Temporary Solution"}
+{"input": "Finance team still using interim spreadsheet for month-end close after 2 years.", "output": "Temporary Solution"}
+{"input": "Customer service using 'temporary' email forwarding until new CRM is implemented.", "output": "Temporary Solution"}
+{"input": "IT deployed provisional firewall rules that were never replaced with proper configuration.", "output": "Temporary Solution"}
+{"input": "Warehouse still using handwritten pick lists as 'stopgap' solution for 9 months.", "output": "Temporary Solution"}
+{"input": "Marketing campaign tracking via shared spreadsheet meant as interim solution.", "output": "Temporary Solution"}
+{"input": "HR onboarding process includes 'temporary' paper forms pending digital system.", "output": "Temporary Solution"}
+{"input": "Sales team using personal Dropbox accounts as 'quick fix' for file sharing.", "output": "Temporary Solution"}
+{"input": "Manufacturing quality checks via 'interim' visual inspection for past year.", "output": "Temporary Solution"}
+{"input": "Accounts payable processing through 'temporary' outsourced team for 15 months.", "output": "Temporary Solution"}
+{"input": "All systems integration uses properly designed enterprise service bus.", "output": "No Temporary Solution"}
+{"input": "Month-end close process uses fully implemented financial software.", "output": "No Temporary Solution"}
+{"input": "CRM system implemented as planned with all integrations.", "output": "No Temporary Solution"}
+{"input": "Firewall configuration follows documented security standards.", "output": "No Temporary Solution"}
+{"input": "Warehouse management uses permanent WMS solution.", "output": "No Temporary Solution"}
+{"input": "Marketing analytics platform fully implemented with automated tracking.", "output": "No Temporary Solution"}
+{"input": "Digital onboarding system completed and in production.", "output": "No Temporary Solution"}
+{"input": "Enterprise file sharing solution properly deployed company-wide.", "output": "No Temporary Solution"}
+{"input": "Automated quality control systems installed on all production lines.", "output": "No Temporary Solution"}
+{"input": "Accounts payable processing handled by permanent in-house team.", "output": "No Temporary Solution"}
+{"input": "The API gateway was meant to be temporary but has been in production for 3 years.", "output": "Temporary Solution"}
+{"input": "Customer support still using 'interim' call center 2 years after acquisition.", "output": "Temporary Solution"}
+{"input": "Inventory reconciliation via 'temporary' weekly manual counts for past 8 months.", "output": "Temporary Solution"}
+{"input": "Data migration script running nightly as 'stopgap' solution for 16 months.", "output": "Temporary Solution"}
+{"input": "Expense approvals through 'provisional' email chain for past year.", "output": "Temporary Solution"}
+{"input": "Shipping labels printed manually as 'quick fix' after printer integration failed.", "output": "Temporary Solution"}
+{"input": "Employee surveys conducted via 'temporary' third-party tool for 3 years.", "output": "Temporary Solution"}
+{"input": "VPN solution implemented as interim measure now supporting 500 users.", "output": "Temporary Solution"}
+{"input": "Contract storage in network folder was temporary but still used after 2 years.", "output": "Temporary Solution"}
+{"input": "Project management via 'interim' Trello boards 18 months after implementation started.", "output": "Temporary Solution"}
+{"input": "API management uses fully implemented enterprise platform.", "output": "No Temporary Solution"}
+{"input": "Customer support fully integrated into corporate systems post-acquisition.", "output": "No Temporary Solution"}
+{"input": "Automated inventory tracking implemented with real-time updates.", "output": "No Temporary Solution"}
+{"input": "Data pipeline uses designed ETL solution rather than scripts.", "output": "No Temporary Solution"}
+{"input": "Expense approval workflow implemented in financial system.", "output": "No Temporary Solution"}
+{"input": "Shipping system fully integrated with automated label printing.", "output": "No Temporary Solution"}
+{"input": "Employee engagement platform properly implemented with SSO.", "output": "No Temporary Solution"}
+{"input": "Corporate VPN replaced with zero-trust network architecture.", "output": "No Temporary Solution"}
+{"input": "Contract management system fully deployed with version control.", "output": "No Temporary Solution"}
+{"input": "Enterprise project management tool implemented company-wide.", "output": "No Temporary Solution"}
+{"input": "The middleware component meant to last 3 months has been running for 2 years.", "output": "Temporary Solution"}
+{"input": "HR using 'temporary' background check provider for 18 months.", "output": "Temporary Solution"}
+{"input": "Manual data entry as 'interim solution' while waiting for automation.", "output": "Temporary Solution"}
+{"input": "Customer portal running on 'temporary' infrastructure past its sunset date.", "output": "Temporary Solution"}
+{"input": "Finance using 'provisional' reporting tool for quarterly statements.", "output": "Temporary Solution"}
+{"input": "IT support using 'quick fix' remote access tool not on approved list.", "output": "Temporary Solution"}
+{"input": "Sales team on 'temporary' commission calculation spreadsheet for 3 quarters.", "output": "Temporary Solution"}
+{"input": "Manufacturing using 'interim' quality inspection process for 15 months.", "output": "Temporary Solution"}
+{"input": "Legal team using 'stopgap' e-signature solution pending enterprise rollout.", "output": "Temporary Solution"}
+{"input": "Marketing analytics via 'temporary' PowerBI setup for past year.", "output": "Temporary Solution"}
+{"input": "Middleware replaced with properly designed integration layer.", "output": "No Temporary Solution"}
+{"input": "HR implemented permanent background check integration.", "output": "No Temporary Solution"}
+{"input": "Data processing fully automated with error handling.", "output": "No Temporary Solution"}
+{"input": "Customer portal migrated to enterprise infrastructure.", "output": "No Temporary Solution"}
+{"input": "Financial reporting uses approved enterprise BI tool.", "output": "No Temporary Solution"}
+{"input": "IT uses authorized remote access solution with proper controls.", "output": "No Temporary Solution"}
+{"input": "Commission calculations automated in payroll system.", "output": "No Temporary Solution"}
+{"input": "Quality inspection automated with machine vision systems.", "output": "No Temporary Solution"}
+{"input": "Enterprise e-signature solution implemented company-wide.", "output": "No Temporary Solution"}
+{"input": "Marketing analytics on approved data visualization platform.", "output": "No Temporary Solution"}
+{"input": "The 'temporary' access permissions granted 9 months ago are still active.", "output": "Temporary Solution"}
+{"input": "Customer data stored in 'interim' database for migration still in use after 2 years.", "output": "Temporary Solution"}
+{"input": "Shipping department using 'provisional' packaging materials for 12 months.", "output": "Temporary Solution"}
+{"input": "Employee scheduling via 'temporary' shared calendar for past 6 quarters.", "output": "Temporary Solution"}
+{"input": "Accounts receivable processing through 'stopgap' virtual machine.", "output": "Temporary Solution"}
+{"input": "Project documentation in 'interim' wiki pending knowledge base rollout.", "output": "Temporary Solution"}
+{"input": "Facilities using 'temporary' badge access system for 18 months.", "output": "Temporary Solution"}
+{"input": "Product team using 'quick fix' task management app not IT-approved.", "output": "Temporary Solution"}
+{"input": "Customer feedback collected via 'temporary' Google Form for 2 years.", "output": "Temporary Solution"}
+{"input": "Data backup running on 'interim' external drives past migration date.", "output": "Temporary Solution"}
+{"input": "Access permissions properly reviewed and updated quarterly.", "output": "No Temporary Solution"}
+{"input": "Customer data migrated to permanent enterprise database.", "output": "No Temporary Solution"}
+{"input": "Standard packaging materials implemented across all products.", "output": "No Temporary Solution"}
+{"input": "Employee scheduling using implemented workforce management system.", "output": "No Temporary Solution"}
+{"input": "Accounts receivable processing on approved financial platform.", "output": "No Temporary Solution"}
+{"input": "Project documentation in official knowledge management system.", "output": "No Temporary Solution"}
+{"input": "Facilities access using enterprise security system with proper controls.", "output": "No Temporary Solution"}
+{"input": "Product team using approved agile project management tool.", "output": "No Temporary Solution"}
+{"input": "Customer feedback collected through CRM-integrated surveys.", "output": "No Temporary Solution"}
+{"input": "Data backup using enterprise-grade cloud solution with redundancy.", "output": "No Temporary Solution"}

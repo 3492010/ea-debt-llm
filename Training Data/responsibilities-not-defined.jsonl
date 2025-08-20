@@ -1,0 +1,80 @@
+{"input": "The customer onboarding process improvement initiative has no assigned owner.", "output": "Responsibilities not defined"}
+{"input": "Cross-selling strategy states 'the team will handle this' without specifying roles.", "output": "Responsibilities not defined"}
+{"input": "Inventory optimization project shows 'TBD' in the owner field.", "output": "Responsibilities not defined"}
+{"input": "New quality assurance program lists 'management' as responsible party.", "output": "Responsibilities not defined"}
+{"input": "Digital transformation roadmap has 5 key initiatives with no named owners.", "output": "Responsibilities not defined"}
+{"input": "Vendor management process document doesn't specify who approves new suppliers.", "output": "Responsibilities not defined"}
+{"input": "Marketing campaign mentions 'someone from creative' will handle asset production.", "output": "Responsibilities not defined"}
+{"input": "IT security policy update shows blank in the responsible department column.", "output": "Responsibilities not defined"}
+{"input": "Annual report preparation task force has no lead assigned.", "output": "Responsibilities not defined"}
+{"input": "Customer feedback analysis process states 'volunteers will review'.", "output": "Responsibilities not defined"}
+{"input": "Sales operations owned by Director of Sales with clear delegation matrix.", "output": "No Responsibilities not defined"}
+{"input": "Procurement process clearly assigns approval authority to VP of Finance.", "output": "No Responsibilities not defined"}
+{"input": "HR onboarding program lists specific owners for each phase.", "output": "No Responsibilities not defined"}
+{"input": "Product development roadmap names engineering leads for each feature.", "output": "No Responsibilities not defined"}
+{"input": "Customer support escalation paths identify exact roles at each level.", "output": "No Responsibilities not defined"}
+{"input": "Marketing campaign shows creative director as accountable for deliverables.", "output": "No Responsibilities not defined"}
+{"input": "IT infrastructure upgrades assigned to named network engineering team.", "output": "No Responsibilities not defined"}
+{"input": "Financial reporting process specifies controller as primary owner.", "output": "No Responsibilities not defined"}
+{"input": "Facilities management tasks divided among 3 named maintenance supervisors.", "output": "No Responsibilities not defined"}
+{"input": "R&D innovation program has clear ownership by department heads.", "output": "No Responsibilities not defined"}
+{"input": "New employee orientation program description lacks any responsible party.", "output": "Responsibilities not defined"}
+{"input": "Website redesign project charter says 'marketing will figure it out'.", "output": "Responsibilities not defined"}
+{"input": "Data privacy compliance initiative has no named leader.", "output": "Responsibilities not defined"}
+{"input": "Expense report approval process doesn't specify approver roles.", "output": "Responsibilities not defined"}
+{"input": "Social media strategy document lists responsibilities as 'shared'.", "output": "Responsibilities not defined"}
+{"input": "Business continuity plan shows emergency response team with no members.", "output": "Responsibilities not defined"}
+{"input": "Diversity and inclusion program has no executive sponsor named.", "output": "Responsibilities not defined"}
+{"input": "New product launch checklist leaves owner column blank.", "output": "Responsibilities not defined"}
+{"input": "Customer satisfaction improvement plan states 'all managers' are responsible.", "output": "Responsibilities not defined"}
+{"input": "Inventory audit process doesn't assign who conducts the counts.", "output": "Responsibilities not defined"}
+{"input": "Order fulfillment process clearly assigns warehouse manager as owner.", "output": "No Responsibilities not defined"}
+{"input": "Accounts payable names specific approvers by dollar amount.", "output": "No Responsibilities not defined"}
+{"input": "IT helpdesk escalation paths identify exact support tiers.", "output": "No Responsibilities not defined"}
+{"input": "Quality control program assigns inspectors to each production line.", "output": "No Responsibilities not defined"}
+{"input": "Sales territory management shows regional directors as accountable.", "output": "No Responsibilities not defined"}
+{"input": "Marketing analytics function owned by named data science lead.", "output": "No Responsibilities not defined"}
+{"input": "Facilities cleaning schedule assigns staff to specific areas.", "output": "No Responsibilities not defined"}
+{"input": "Product recall procedure identifies crisis team members by name.", "output": "No Responsibilities not defined"}
+{"input": "Employee training program coordinates assigned to HR development specialist.", "output": "No Responsibilities not defined"}
+{"input": "Capital expenditure approvals list exact signing authorities.", "output": "No Responsibilities not defined"}
+{"input": "The innovation task force charter doesn't name any members.", "output": "Responsibilities not defined"}
+{"input": "Customer complaint resolution process states 'appropriate person will handle'.", "output": "Responsibilities not defined"}
+{"input": "New market expansion plan shows department names but no individual owners.", "output": "Responsibilities not defined"}
+{"input": "IT disaster recovery documentation lacks identified responders.", "output": "Responsibilities not defined"}
+{"input": "Employee recognition program says 'managers will decide' without specifics.", "output": "Responsibilities not defined"}
+{"input": "Budget preparation guidelines don't assign who consolidates submissions.", "output": "Responsibilities not defined"}
+{"input": "Sustainability initiative lists goals but no implementation owners.", "output": "Responsibilities not defined"}
+{"input": "Contract review process doesn't specify legal approvers.", "output": "Responsibilities not defined"}
+{"input": "New hire equipment setup shows blank in assigned team field.", "output": "Responsibilities not defined"}
+{"input": "Quarterly business review preparation has no lead identified.", "output": "Responsibilities not defined"}
+{"input": "Sales forecasting process owned by VP of Sales with named analysts.", "output": "No Responsibilities not defined"}
+{"input": "Product quality assurance assigned to named quality control manager.", "output": "No Responsibilities not defined"}
+{"input": "Accounts receivable collection process specifies collector roles.", "output": "No Responsibilities not defined"}
+{"input": "IT project management office assigns leads for each initiative.", "output": "No Responsibilities not defined"}
+{"input": "Facility security procedures name officers for each post.", "output": "No Responsibilities not defined"}
+{"input": "Marketing campaign development shows creative director as accountable.", "output": "No Responsibilities not defined"}
+{"input": "Employee performance reviews assigned to direct supervisors.", "output": "No Responsibilities not defined"}
+{"input": "Inventory replenishment process specifies buyer roles.", "output": "No Responsibilities not defined"}
+{"input": "Customer implementation projects assign dedicated managers.", "output": "No Responsibilities not defined"}
+{"input": "Regulatory compliance program lists specific department owners.", "output": "No Responsibilities not defined"}
+{"input": "The new pricing strategy document doesn't specify who implements changes.", "output": "Responsibilities not defined"}
+{"input": "Vendor performance review process lacks assigned evaluators.", "output": "Responsibilities not defined"}
+{"input": "Employee referral program states 'HR will manage' without names.", "output": "Responsibilities not defined"}
+{"input": "Data migration project shows 'IT team' responsible with no specifics.", "output": "Responsibilities not defined"}
+{"input": "Office relocation planning committee has no chairperson named.", "output": "Responsibilities not defined"}
+{"input": "Customer retention initiative lists tasks but no owners.", "output": "Responsibilities not defined"}
+{"input": "New policy rollout doesn't assign who communicates to employees.", "output": "Responsibilities not defined"}
+{"input": "Trade show participation plan leaves booth staff assignments blank.", "output": "Responsibilities not defined"}
+{"input": "Equipment maintenance schedule doesn't name technicians.", "output": "Responsibilities not defined"}
+{"input": "Annual audit preparation shows 'finance team' with no lead.", "output": "Responsibilities not defined"}
+{"input": "Product documentation updates assigned to technical writers by component.", "output": "No Responsibilities not defined"}
+{"input": "Customer onboarding process names implementation specialists.", "output": "No Responsibilities not defined"}
+{"input": "IT security patches assigned to system administrators by location.", "output": "No Responsibilities not defined"}
+{"input": "Expense report audits conducted by named accounting staff.", "output": "No Responsibilities not defined"}
+{"input": "Sales territory realignment owned by regional VPs.", "output": "No Responsibilities not defined"}
+{"input": "Marketing content calendar managed by named editorial lead.", "output": "No Responsibilities not defined"}
+{"input": "Facility work orders assigned to maintenance staff by skill.", "output": "No Responsibilities not defined"}
+{"input": "Employee benefits administration handled by named HR benefits manager.", "output": "No Responsibilities not defined"}
+{"input": "Product defect resolution process assigns QA team members.", "output": "No Responsibilities not defined"}
+{"input": "Customer escalation procedure names support managers by tier.", "output": "No Responsibilities not defined"}

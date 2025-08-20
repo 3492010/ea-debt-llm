@@ -1,0 +1,80 @@
+{"input": "The order management process has a wiki page that just says 'Coming soon'.", "output": "Lack of documentation"}
+{"input": "API integration guide contains multiple sections marked 'TBD'.", "output": "Lack of documentation"}
+{"input": "New employee onboarding folder has empty subfolders for each department.", "output": "Lack of documentation"}
+{"input": "IT security policy references an appendix that doesn't exist.", "output": "Lack of documentation"}
+{"input": "Vendor management process document links to a deleted file share.", "output": "Lack of documentation"}
+{"input": "Customer service escalation protocol says 'see handbook' but no handbook exists.", "output": "Lack of documentation"}
+{"input": "Marketing campaign template has placeholder text throughout.", "output": "Lack of documentation"}
+{"input": "Production change control process references outdated version of quality standards.", "output": "Lack of documentation"}
+{"input": "HR benefits page says 'details to be announced' for the past 6 months.", "output": "Lack of documentation"}
+{"input": "Sales playbook contains blank sections for 3 key products.", "output": "Lack of documentation"}
+{"input": "Complete order management documentation exists with version control.", "output": "No Lack of documentation"}
+{"input": "API specifications are fully documented with examples and test cases.", "output": "No Lack of documentation"}
+{"input": "Onboarding program has detailed guides for each department role.", "output": "No Lack of documentation"}
+{"input": "IT security policies are complete with all referenced appendices.", "output": "No Lack of documentation"}
+{"input": "Vendor management documentation is current and accessible.", "output": "No Lack of documentation"}
+{"input": "Customer service has up-to-date handbook with escalation procedures.", "output": "No Lack of documentation"}
+{"input": "Marketing campaign documentation includes all templates and checklists.", "output": "No Lack of documentation"}
+{"input": "Production change control references current quality standards.", "output": "No Lack of documentation"}
+{"input": "HR benefits are fully documented with annual updates.", "output": "No Lack of documentation"}
+{"input": "Sales playbook covers all products with detailed battle cards.", "output": "No Lack of documentation"}
+{"input": "Inventory management process has a header page but no content.", "output": "Lack of documentation"}
+{"input": "Disaster recovery plan says 'under development' for past year.", "output": "Lack of documentation"}
+{"input": "Expense reporting guidelines reference a retired form version.", "output": "Lack of documentation"}
+{"input": "New product development framework missing the testing methodology section.", "output": "Lack of documentation"}
+{"input": "Data governance policy links to missing data classification guide.", "output": "Lack of documentation"}
+{"input": "Facilities request system has placeholder text in help documentation.", "output": "Lack of documentation"}
+{"input": "Employee performance review process documented only in meeting minutes.", "output": "Lack of documentation"}
+{"input": "IT onboarding checklist hasn't been updated for new systems.", "output": "Lack of documentation"}
+{"input": "Customer implementation process exists only as sticky notes in manager's office.", "output": "Lack of documentation"}
+{"input": "Contract approval workflow described in email threads but not formally documented.", "output": "Lack of documentation"}
+{"input": "Inventory management has complete documentation with version history.", "output": "No Lack of documentation"}
+{"input": "Disaster recovery plan is current with annual testing records.", "output": "No Lack of documentation"}
+{"input": "Expense reporting uses current forms with accessible guidelines.", "output": "No Lack of documentation"}
+{"input": "Product development framework includes full testing methodology.", "output": "No Lack of documentation"}
+{"input": "Data governance documentation includes classification guide.", "output": "No Lack of documentation"}
+{"input": "Facilities system has complete help documentation with screenshots.", "output": "No Lack of documentation"}
+{"input": "Performance review process is formally documented in HR system.", "output": "No Lack of documentation"}
+{"input": "IT onboarding covers all systems with updated checklists.", "output": "No Lack of documentation"}
+{"input": "Customer implementation has detailed playbooks for all scenarios.", "output": "No Lack of documentation"}
+{"input": "Contract approval workflow is documented in legal knowledge base.", "output": "No Lack of documentation"}
+{"input": "The accounts reconciliation process exists only in the controller's head.", "output": "Lack of documentation"}
+{"input": "New market entry checklist has 5 of 10 sections completed.", "output": "Lack of documentation"}
+{"input": "Equipment maintenance logs reference a discontinued tracking system.", "output": "Lack of documentation"}
+{"input": "Customer refund policy document is password-protected and unavailable.", "output": "Lack of documentation"}
+{"input": "Sales compensation plan exists as draft slides but not formal policy.", "output": "Lack of documentation"}
+{"input": "Quality assurance manual hasn't been updated for new regulations.", "output": "Lack of documentation"}
+{"input": "Employee referral program details only communicated verbally.", "output": "Lack of documentation"}
+{"input": "Software deployment process documented in outdated wiki format.", "output": "Lack of documentation"}
+{"input": "Budget preparation guidelines reference last year's templates.", "output": "Lack of documentation"}
+{"input": "Monthly closing procedures exist only as email attachments.", "output": "Lack of documentation"}
+{"input": "Accounts reconciliation is fully documented with examples.", "output": "No Lack of documentation"}
+{"input": "Market entry checklist is complete with all required sections.", "output": "No Lack of documentation"}
+{"input": "Equipment maintenance uses current system with complete logs.", "output": "No Lack of documentation"}
+{"input": "Refund policy is accessible to all customer service staff.", "output": "No Lack of documentation"}
+{"input": "Sales compensation is formally documented and accessible.", "output": "No Lack of documentation"}
+{"input": "QA manual is current with all regulatory requirements.", "output": "No Lack of documentation"}
+{"input": "Employee referral program has detailed written guidelines.", "output": "No Lack of documentation"}
+{"input": "Software deployment uses current documentation in standard format.", "output": "No Lack of documentation"}
+{"input": "Budget preparation uses current templates with guidelines.", "output": "No Lack of documentation"}
+{"input": "Monthly closing has formal documented procedures in finance manual.", "output": "No Lack of documentation"}
+{"input": "The vendor risk assessment process is only partially documented.", "output": "Lack of documentation"}
+{"input": "Business continuity plan missing the communications section.", "output": "Lack of documentation"}
+{"input": "New hire equipment setup instructions reference old software versions.", "output": "Lack of documentation"}
+{"input": "Customer data retention policy says 'see legal' without specifics.", "output": "Lack of documentation"}
+{"input": "Social media policy hasn't been updated for new platforms.", "output": "Lack of documentation"}
+{"input": "IT asset disposal process exists only as a flowchart without details.", "output": "Lack of documentation"}
+{"input": "Travel approval workflow changed but documentation not updated.", "output": "Lack of documentation"}
+{"input": "Product recall procedure documented in draft status for 8 months.", "output": "Lack of documentation"}
+{"input": "Expense audit process known only by accounting team veterans.", "output": "Lack of documentation"}
+{"input": "Facilities access procedures differ from documented policy.", "output": "Lack of documentation"}
+{"input": "Vendor risk assessment is fully documented with scoring criteria.", "output": "No Lack of documentation"}
+{"input": "Business continuity plan includes complete communications protocol.", "output": "No Lack of documentation"}
+{"input": "New hire setup documentation covers all current software.", "output": "No Lack of documentation"}
+{"input": "Data retention policy specifies durations for all data types.", "output": "No Lack of documentation"}
+{"input": "Social media policy covers all active platforms with guidelines.", "output": "No Lack of documentation"}
+{"input": "IT asset disposal has detailed steps with compliance checks.", "output": "No Lack of documentation"}
+{"input": "Travel approval workflow matches current documentation.", "output": "No Lack of documentation"}
+{"input": "Product recall procedure is finalized and accessible.", "output": "No Lack of documentation"}
+{"input": "Expense audit process is documented and available to all accountants.", "output": "No Lack of documentation"}
+{"input": "Facilities access procedures match current documented policy.", "output": "No Lack of documentation"}

@@ -1,0 +1,80 @@
+{"input": "The sales order blueprint merges the salesperson's revenue targets with the warehouse's pick/pack KPIs, yet the governing viewpoint is not named.", "output": "Ambigious Viewpoint"}
+{"input": "In the Order-to-Cash dashboard, customer satisfaction metrics are shown alongside finance's DSO goals without specifying the intended audience.", "output": "Ambigious Viewpoint"}
+{"input": "The order confirmation workflow alternates between marketing language and accounting controls without declaring a stakeholder perspective.", "output": "Ambigious Viewpoint"}
+{"input": "The O2C swim‑lane diagram plots both CIO-driven system uptime metrics and customer credit approval rules, with no viewpoint statement.", "output": "Ambigious Viewpoint"}
+{"input": "An O2C strategy document presents logistics cost minimization alongside brand experience guidelines in one model, leaving the owner viewpoint undefined.", "output": "Ambigious Viewpoint"}
+{"input": "The invoice template fully documents the steps for tax calculation with clear roles; the viewpoint (finance) is explicit, so no smell.", "output": "No smell"}
+{"input": "The automated DSO report clearly states it is intended for the finance controller, so the viewpoint is clear.", "output": "No smell"}
+{"input": "The credit‑check sub‑process diagram clearly states it reflects the risk manager's viewpoint.", "output": "No smell"}
+{"input": "The order aging dashboard is tagged 'for sales ops', showing a clear viewpoint.", "output": "No smell"}
+{"input": "The refund procedure narrative starts with 'Perspective: customer service', making the viewpoint explicit.", "output": "No smell"}
+{"input": "The procurement overview combines IT security compliance criteria with treasury cash‑flow limits but omits which stakeholder viewpoint drives supplier selection.", "output": "Ambigious Viewpoint"}
+{"input": "The P2P model overlays engineering part‑quality specs and finance discount preferences without an explicit perspective filter.", "output": "Ambigious Viewpoint"}
+{"input": "In the vendor onboarding workflow, risk management concerns appear next to operations lead‑time KPIs without defining a viewpoint.", "output": "Ambigious Viewpoint"}
+{"input": "A purchase approval matrix shows CEO and warehouse thresholds in the same table but does not state the intended audience.", "output": "Ambigious Viewpoint"}
+{"input": "The P2P process map tracks both CIO system availability and buyer negotiation margin metrics with no declared viewpoint.", "output": "Ambigious Viewpoint"}
+{"input": "The purchase requisition form clearly labels 'for finance audit use', so the viewpoint is explicit.", "output": "No smell"}
+{"input": "Vendor master data maintenance instructions are fully documented; no ambiguous viewpoint detected.", "output": "No smell"}
+{"input": "The sourcing scorecard states at top 'procurement leadership perspective', so viewpoint clear.", "output": "No smell"}
+{"input": "The payment scheduling dashboard banner says 'Treasury View', making perspective explicit.", "output": "No smell"}
+{"input": "The supplier onboarding SOP begins with 'Audience: procurement compliance team', clarifying viewpoint.", "output": "No smell"}
+{"input": "The financial close diagram blends tax authority deadlines and CFO margin targets without clarifying the viewpoint.", "output": "Ambigious Viewpoint"}
+{"input": "In the R2R flowchart, IT system latency stats appear alongside auditor materiality thresholds, yet no perspective is stated.", "output": "Ambigious Viewpoint"}
+{"input": "The consolidation model merges investor relations narratives and controller compliance rules but omits the viewpoint.", "output": "Ambigious Viewpoint"}
+{"input": "A KPI dashboard reports both marketing brand‑equity indicators and accounting accrual data without an intended audience tag.", "output": "Ambigious Viewpoint"}
+{"input": "The R2R process description alternates between board‑level strategy and transaction‑level journal entries with no viewpoint declaration.", "output": "Ambigious Viewpoint"}
+{"input": "The documented R2R SOP states it is written for financial controllers, so the viewpoint is clear.", "output": "No smell"}
+{"input": "Audit trail logs are complete and clearly targeted at external auditors; no ambiguous viewpoint.", "output": "No smell"}
+{"input": "The consolidation checklist header notes 'Perspective: group accounting', so viewpoint clear.", "output": "No smell"}
+{"input": "The financial ratios dashboard footnote reads 'Investor Relations View', clarifying the lens.", "output": "No smell"}
+{"input": "The close calendar slide deck title: 'CFO Perspective', making viewpoint explicit.", "output": "No smell"}
+{"input": "The onboarding journey map mixes HR engagement scores with IT hardware provisioning metrics without stating the viewpoint.", "output": "Ambigious Viewpoint"}
+{"input": "An H2R strategy deck shows talent‑brand goals and payroll compliance rules on the same slide, missing a perspective declaration.", "output": "Ambigious Viewpoint"}
+{"input": "The performance appraisal model includes legal retention periods alongside coaching principles but no owner viewpoint.", "output": "Ambigious Viewpoint"}
+{"input": "The workforce planning spreadsheet lists both CFO cost caps and CHRO development plans with an unspecified perspective.", "output": "Ambigious Viewpoint"}
+{"input": "A succession planning chart juxtaposes candidate skill matrices with security‑clearance workflows and lacks a viewpoint tag.", "output": "Ambigious Viewpoint"}
+{"input": "The onboarding checklist clearly states 'for hiring‑manager use', so viewpoint is explicit.", "output": "No smell"}
+{"input": "The payroll process guide is fully documented and explicitly targets the payroll team; no ambiguous viewpoint.", "output": "No smell"}
+{"input": "The talent review meeting deck states 'Audience: executive committee', so viewpoint clear.", "output": "No smell"}
+{"input": "The benefits enrollment FAQ starts with 'Perspective: HR Benefits', clarifying viewpoint.", "output": "No smell"}
+{"input": "The training budget report is labeled 'For L&D management', making its viewpoint explicit.", "output": "No smell"}
+{"input": "The incident‑response diagram presents user‑experience NPS goals and CISO risk thresholds side by side without a specified viewpoint.", "output": "Ambigious Viewpoint"}
+{"input": "The IT roadmap merges CFO depreciation timelines with developer language preferences but never clarifies the lens used.", "output": "Ambigious Viewpoint"}
+{"input": "The change‑management flow displays marketing launch dates and infrastructure freeze periods without an audience tag.", "output": "Ambigious Viewpoint"}
+{"input": "The service catalogue contains both finance chargeback rates and technical SLA details without mentioning its viewpoint.", "output": "Ambigious Viewpoint"}
+{"input": "A DevOps metrics board shows HR engagement stats next to system MTTR without specifying stakeholder perspective.", "output": "Ambigious Viewpoint"}
+{"input": "The system architecture diagram is clearly labeled 'for network engineers', so viewpoint is explicit.", "output": "No smell"}
+{"input": "The patch‑management SOP is complete and identifies its audience; no ambiguous viewpoint.", "output": "No smell"}
+{"input": "The capacity planning dashboard header reads 'Infrastructure Operations View', making perspective clear.", "output": "No smell"}
+{"input": "The service desk report is tagged 'CIO Summary', clarifying its viewpoint.", "output": "No smell"}
+{"input": "The API governance policy explicitly states 'Perspective: enterprise architects', so viewpoint is defined.", "output": "No smell"}
+{"input": "The customer journey map overlays marketing acquisition KPIs with service call‑resolution times without stating the viewpoint.", "output": "Ambigious Viewpoint"}
+{"input": "The support dashboard combines CFO cost‑per‑ticket data and NPS satisfaction scores with no declared audience.", "output": "Ambigious Viewpoint"}
+{"input": "The chatbot workflow includes legal compliance disclaimers alongside UX guidelines but lacks a perspective tag.", "output": "Ambigious Viewpoint"}
+{"input": "The escalation matrix mixes IT severity ratings and customer emotion scales without clarifying the lens.", "output": "Ambigious Viewpoint"}
+{"input": "A service policy outlines HR agent‑training hours and product release notes in one document, lacking any viewpoint declaration.", "output": "Ambigious Viewpoint"}
+{"input": "The service script is clearly marked 'agent use', so the viewpoint is explicit.", "output": "No smell"}
+{"input": "The incident‑triage guide is comprehensive and labelled for service managers; no ambiguous viewpoint.", "output": "No smell"}
+{"input": "The weekly CSAT report says 'Perspective: customer success leadership', clarifying viewpoint.", "output": "No smell"}
+{"input": "The chat protocol guideline header lists 'Audience: digital support agents', so viewpoint clear.", "output": "No smell"}
+{"input": "The warranty claim SOP begins with 'Perspective: quality assurance team', making viewpoint explicit.", "output": "No smell"}
+{"input": "The campaign framework blends sales quota metrics and brand‑awareness goals in one slide deck without a perspective statement.", "output": "Ambigious Viewpoint"}
+{"input": "The marketing roadmap shows IT deployment timelines alongside creative KPIs with no explicit viewpoint.", "output": "Ambigious Viewpoint"}
+{"input": "The content calendar presents finance budget caps and influencer engagement criteria without declaring its lens.", "output": "Ambigious Viewpoint"}
+{"input": "The lead‑nurture model merges customer success retention goals and SEO ranking metrics but omits the viewpoint.", "output": "Ambigious Viewpoint"}
+{"input": "A brand guideline doc includes legal risk disclaimers and design aesthetics yet lacks an audience tag.", "output": "Ambigious Viewpoint"}
+{"input": "The creative brief is clearly labeled 'for agency use', so viewpoint is explicit.", "output": "No smell"}
+{"input": "The social‑media playbook is fully documented and targets the community manager; no ambiguous viewpoint.", "output": "No smell"}
+{"input": "The ad spend dashboard title is 'CMO View', providing a clear perspective.", "output": "No smell"}
+{"input": "The brand asset library states 'Audience: design team', clarifying viewpoint.", "output": "No smell"}
+{"input": "The SEO strategy document opens with 'Perspective: performance marketing', defining the viewpoint.", "output": "No smell"}
+{"input": "The delivery‑route model combines customer‑satisfaction timing and warehouse cost‑per‑mile metrics without specifying a viewpoint.", "output": "Ambigious Viewpoint"}
+{"input": "The logistics dashboard overlays CFO fuel‑hedging data and driver safety metrics without a perspective tag.", "output": "Ambigious Viewpoint"}
+{"input": "The warehouse layout plan presents retail visual‑merchandising KPIs and forklift flow times simultaneously, missing a vantage point.", "output": "Ambigious Viewpoint"}
+{"input": "The shipping schedule includes marketing launch constraints together with carrier SLA details, yet the intended audience is not defined.", "output": "Ambigious Viewpoint"}
+{"input": "An inventory optimization chart shows IT database performance metrics and shelf‑life deterioration rates but no viewpoint is stated.", "output": "Ambigious Viewpoint"}
+{"input": "The transport policy is clearly labeled 'driver handbook', so the viewpoint is explicit.", "output": "No smell"}
+{"input": "The inventory count procedure is fully documented and intended for the operations supervisor; no ambiguous viewpoint.", "output": "No smell"}
+{"input": "The freight cost analysis report says 'Finance Logistics View', clarifying perspective.", "output": "No smell"}
+{"input": "The warehouse safety checklist is labeled 'Audience: safety inspectors', defining viewpoint.", "output": "No smell"}
+{"input": "The delivery KPI dashboard subtitle reads 'Operations Management Perspective', making viewpoint explicit.", "output": "No smell"}

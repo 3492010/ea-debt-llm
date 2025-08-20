@@ -1,0 +1,80 @@
+{"input": "Digital invoicing project aimed to clear backlog of 3,000 open invoices within two weeks of launch; five weeks later backlog still sits at 2,450.", "output": "Project Goals Not Achieved"}
+{"input": "Order orchestration redesign promised same‑day order confirmation; average confirmation time is still two days.", "output": "Project Goals Not Achieved"}
+{"input": "Dynamic pricing engine was meant to be live in all regions by Q3 but is only available in Europe.", "output": "Project Goals Not Achieved"}
+{"input": "Real‑time payment gateway projected to reduce manual reconciliation tickets to zero; tickets remain at 300 per month.", "output": "Project Goals Not Achieved"}
+{"input": "Global credit policy rollout set target of 'no order holds for top‑tier customers', yet 190 holds occurred last quarter.", "output": "Project Goals Not Achieved"}
+{"input": "Self‑service customer portal eliminated the paper statement process entirely, exactly as planned.", "output": "No Smell"}
+{"input": "EDI expansion went live for all top‑50 customers before the fiscal year close, on schedule.", "output": "No Smell"}
+{"input": "New cash allocation module cleared daily remittance files by 6 p.m. cut‑off consistently since go‑live.", "output": "No Smell"}
+{"input": "Automated credit‑scoring project reduced the manual credit review queue to zero within the first sprint as required.", "output": "No Smell"}
+{"input": "Batch billing job now completes within the one‑hour window mandated by the SLA.", "output": "No Smell"}
+{"input": "Supplier portal deployment aimed to onboard 400 suppliers by Q2; only 90 were active by Q3.", "output": "Project Goals Not Achieved"}
+{"input": "Contract repository promised all agreements to be searchable; nearly half remain unindexed.", "output": "Project Goals Not Achieved"}
+{"input": "Touchless invoice‑processing was expected to eliminate duplicate payments, yet auditors found 37 duplicates last month.", "output": "Project Goals Not Achieved"}
+{"input": "Catalog consolidation project set goal to retire legacy catalog by March, but the old system still processes 800 orders weekly.", "output": "Project Goals Not Achieved"}
+{"input": "Early‑payment program supposed to generate €2 million in discount savings annually; first year yielded €350 k.", "output": "Project Goals Not Achieved"}
+{"input": "Vendor master cleanse removed 9 300 duplicate records, fulfilling its objective.", "output": "No Smell"}
+{"input": "E‑procurement rollout completed for all 12 plants four weeks ahead of plan.", "output": "No Smell"}
+{"input": "Three‑way‑match automation cut the average exception queue to under 10 invoices per day as specified.", "output": "No Smell"}
+{"input": "AP chatbot now answers routine status queries instantly, freeing analysts as expected.", "output": "No Smell"}
+{"input": "Policy harmonisation eliminated late‑payment penalties entirely last quarter.", "output": "No Smell"}
+{"input": "Close acceleration initiative targeted close on day 3; books still close on day 7.", "output": "Project Goals Not Achieved"}
+{"input": "Intercompany reconciliation automation aimed to eliminate $5 million unreconciled balances; $3.8 million remains.", "output": "Project Goals Not Achieved"}
+{"input": "Lease accounting compliance project intended to clear all audit findings; new audit reported four major findings.", "output": "Project Goals Not Achieved"}
+{"input": "BI consolidation forecast removal of 120 manual spreadsheets; 78 remain in use.", "output": "Project Goals Not Achieved"}
+{"input": "Shared‑service migration promised to decommission regional finance systems by year‑end; three are still active.", "output": "Project Goals Not Achieved"}
+{"input": "BlackLine implementation automated all 1 600 account reconciliations as scoped.", "output": "No Smell"}
+{"input": "Tax provisioning upgrade consistently generates statutory reports two days earlier than before, as planned.", "output": "No Smell"}
+{"input": "IFRS 17 readiness project passed external audit without any exceptions.", "output": "No Smell"}
+{"input": "Cloud consolidation delivered a single ledger instance for all regions on schedule.", "output": "No Smell"}
+{"input": "Robotic journal‑entry automation removed manual entries from high‑risk accounts altogether.", "output": "No Smell"}
+{"input": "Global HRIS rollout committed to a single employee record by Q3; three regions still use local files.", "output": "Project Goals Not Achieved"}
+{"input": "Onboarding digitisation promised new hires laptop delivery on day one; 120 new hires received laptops late.", "output": "Project Goals Not Achieved"}
+{"input": "Talent analytics project aimed to predict resignations at least one quarter ahead; predictive model not deployed.", "output": "Project Goals Not Achieved"}
+{"input": "Learning portal revamp expected to add mobile access; mobile app is still pending app‑store approval six months later.", "output": "Project Goals Not Achieved"}
+{"input": "Diversity recruiting initiative committed to fill 20 senior roles with under‑represented candidates; only two were filled.", "output": "Project Goals Not Achieved"}
+{"input": "Payroll consolidation eliminated regional payroll vendors by December as committed.", "output": "No Smell"}
+{"input": "Self‑service leave management system has processed every holiday request without HR intervention since launch.", "output": "No Smell"}
+{"input": "Performance management redesign ensured every employee received a formal review before fiscal year end.", "output": "No Smell"}
+{"input": "Internal mobility program filled 350 openings internally, exceeding the hiring board plan.", "output": "No Smell"}
+{"input": "HR chatbot now resolves standard benefits questions within seconds, meeting the service goal.", "output": "No Smell"}
+{"input": "Disaster‑recovery automation targeted failover in 30 minutes; last drill took two hours.", "output": "Project Goals Not Achieved"}
+{"input": "Cloud migration plan set to move 1 200 VMs by end of quarter; only 550 migrated.", "output": "Project Goals Not Achieved"}
+{"input": "CMDB remediation aimed to register every production server; 480 of 600 servers still missing.", "output": "Project Goals Not Achieved"}
+{"input": "DevOps transformation promised releases on demand; releases still follow a monthly batch schedule.", "output": "Project Goals Not Achieved"}
+{"input": "Security patching program required critical patches within 30 days; recent report shows average of 47 days.", "output": "Project Goals Not Achieved"}
+{"input": "Monitoring upgrade now covers all production servers and network devices as specified.", "output": "No Smell"}
+{"input": "Network modernisation improved latency to under 10 ms on core links, meeting SLA.", "output": "No Smell"}
+{"input": "Service‑desk shift‑left eliminated level‑3 backlog for incident category 'password reset'.", "output": "No Smell"}
+{"input": "API management rollout published 102 APIs, meeting catalog target of 100.", "output": "No Smell"}
+{"input": "Agile training certified every engineer in the development tribe by the first half of the year.", "output": "No Smell"}
+{"input": "Omnichannel platform launch was to raise NPS to 60; current NPS is 49.", "output": "Project Goals Not Achieved"}
+{"input": "Voicebot project intended to deflect 1 000 calls per day; deflects only 250.", "output": "Project Goals Not Achieved"}
+{"input": "Knowledge‑base overhaul promised to halve agent onboarding time; onboarding still averages 14 days.", "output": "Project Goals Not Achieved"}
+{"input": "Proactive outage notification should have cut complaint tickets to under 50 per outage; still at 180.", "output": "Project Goals Not Achieved"}
+{"input": "Field‑service optimisation aimed to shrink average technician drive time to 25 minutes; current average is 40.", "output": "Project Goals Not Achieved"}
+{"input": "Chatbot introduction replies to all tier‑0 FAQs 24/7 as planned.", "output": "No Smell"}
+{"input": "Customer community forum reaches resolution faster than the two‑hour goal consistently.", "output": "No Smell"}
+{"input": "CRM upgrade routes cases to the correct queue instantly, eliminating manual triage.", "output": "No Smell"}
+{"input": "SLA dashboard shows only 12 of 600 tickets breached the response window across three months, meeting the target.", "output": "No Smell"}
+{"input": "Feedback loop program surfaces customer suggestions to product team weekly as per charter.", "output": "No Smell"}
+{"input": "Account‑based marketing pilot promised $5 million in new pipeline; generated $1 million.", "output": "Project Goals Not Achieved"}
+{"input": "Brand refresh aimed to win at least two industry design awards; won none.", "output": "Project Goals Not Achieved"}
+{"input": "Personalisation engine was expected to halve email unsubscribes; unsubscribes stayed flat at 4 000 per month.", "output": "Project Goals Not Achieved"}
+{"input": "Social listening tool set target to respond to critical mentions within one hour; average is three hours.", "output": "Project Goals Not Achieved"}
+{"input": "Marketing automation intended to deliver 300 nurtured leads weekly; dashboard shows 90.", "output": "Project Goals Not Achieved"}
+{"input": "SEO optimisation placed the company in top three search results for 25 priority keywords as planned.", "output": "No Smell"}
+{"input": "Webinar series generated 1 200 registrants versus 1 000 goal.", "output": "No Smell"}
+{"input": "Content hub migration finished under the $750 k budget cap.", "output": "No Smell"}
+{"input": "Data‑enrichment project added phone numbers to all 45 000 contact records as scoped.", "output": "No Smell"}
+{"input": "Loyalty program revamp launched its mobile app exactly on World Retail Day as scheduled.", "output": "No Smell"}
+{"input": "Warehouse automation intended to process 10 000 orders per shift; current throughput is 6 500.", "output": "Project Goals Not Achieved"}
+{"input": "Last‑mile carrier optimisation aimed to open two new micro hubs by June; none are operational yet.", "output": "Project Goals Not Achieved"}
+{"input": "AI‑driven route planning projected to eliminate manual routing; dispatchers still override 300 routes daily.", "output": "Project Goals Not Achieved"}
+{"input": "Cross‑dock implementation promised to remove routine storage from facility B; pallets still queue overnight.", "output": "Project Goals Not Achieved"}
+{"input": "Cold‑chain monitoring committed to maintain cargo at 2‑8 °C; ten shipments exceeded limits last quarter.", "output": "Project Goals Not Achieved"}
+{"input": "TMS upgrade now consolidates shipment tracking IDs into a single dashboard as required.", "output": "No Smell"}
+{"input": "Fleet telematics provides real‑time GPS coordinates for every truck in operation.", "output": "No Smell"}
+{"input": "Inventory visibility platform synced 120 warehouses into the central ERP one month early.", "output": "No Smell"}
+{"input": "RFID tagging reduced annual manual cycle counts to zero for high‑value items.", "output": "No Smell"}
+{"input": "Green logistics initiative replaced diesel forklifts with electric units in all distribution centres as planned.", "output": "No Smell"}

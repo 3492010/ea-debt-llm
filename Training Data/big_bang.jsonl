@@ -1,0 +1,80 @@
+{"input": "The company decided to replace the entire Order-to-Cash system across all regions in a single cut‑over weekend, with no pilot phases.", "output": "Big Bang"}
+{"input": "Management mandated a simultaneous go‑live of the new invoicing, credit check, and collections modules for every sales unit worldwide.", "output": "Big Bang"}
+{"input": "A one‑phase rollout migrates all order capture, pricing, and billing services at once, foregoing staged deployment.", "output": "Big Bang"}
+{"input": "The ERP upgrade plan schedules a full switch from legacy to cloud Order‑to‑Cash processes on 1 July, affecting every customer order channel simultaneously.", "output": "Big Bang"}
+{"input": "Leadership approved a big‑bang transformation that will rebuild the entire O2C architecture in a single sprint.", "output": "Big Bang"}
+{"input": "The billing module will be migrated first, followed by credit management three months later.", "output": "No Big Bang"}
+{"input": "Minor configuration changes were made to pricing rules without altering downstream processes.", "output": "No Big Bang"}
+{"input": "A phased pilot introduced the new web storefront in one region before global expansion.", "output": "No Big Bang"}
+{"input": "Routine maintenance patch applied to the accounts receivable interface last night.", "output": "No Big Bang"}
+{"input": "Weekly Kaizen workshops gradually refine the order confirmation emails.", "output": "No Big Bang"}
+{"input": "All purchasing, approval, and payment systems will be decommissioned and replaced during a single‑weekend switchover.", "output": "Big Bang"}
+{"input": "Procure‑to‑Pay redesign launches new supplier portal and payment gateway for every business unit on the same day.", "output": "Big Bang"}
+{"input": "The program plan specifies a company‑wide, one‑step migration from on‑premise P2P to SaaS with no interim coexistence.", "output": "Big Bang"}
+{"input": "A Big Bang initiative will re‑engineer requisition, sourcing, and invoice matching simultaneously.", "output": "Big Bang"}
+{"input": "Finance ordered that all vendor onboarding workflows move to the new platform in one global release.", "output": "Big Bang"}
+{"input": "The sourcing module will be integrated first, with invoice automation scheduled for next quarter.", "output": "No Big Bang"}
+{"input": "Only the catalogue search screen received a UX refresh this sprint.", "output": "No Big Bang"}
+{"input": "Pilot with three key suppliers collected feedback before broader rollout.", "output": "No Big Bang"}
+{"input": "Routine update fixed a tax calculation bug in the payment engine.", "output": "No Big Bang"}
+{"input": "Quarterly reviews adjust approval thresholds gradually.", "output": "No Big Bang"}
+{"input": "The transformation charter states that all ledger, consolidation, and reporting tools will switch to SAP S/4HANA on a single go‑live date.", "output": "Big Bang"}
+{"input": "A simultaneous cut‑over will migrate every chart of accounts worldwide without regional pilots.", "output": "Big Bang"}
+{"input": "Controllers approved a one‑shot move to a new reporting taxonomy across all entities.", "output": "Big Bang"}
+{"input": "The Big Bang roadmap drops parallel run and enforces instant decommissioning of legacy R2R systems.", "output": "Big Bang"}
+{"input": "All month‑end close activities will be executed on the new platform starting next fiscal period, with no phased approach.", "output": "Big Bang"}
+{"input": "The trial balance process is migrated first, while consolidation stays on legacy system for two quarters.", "output": "No Big Bang"}
+{"input": "Only the statutory reporting templates were refreshed this year.", "output": "No Big Bang"}
+{"input": "A limited-scope prototype tested multidimensional ledger features before scaling.", "output": "No Big Bang"}
+{"input": "Hotfix applied to fix cash‑flow statement rounding errors.", "output": "No Big Bang"}
+{"input": "Continuous improvement program introduces incremental automation to account reconciliations.", "output": "No Big Bang"}
+{"input": "HR announced a single‑day transition to the new H2R suite covering recruitment, onboarding, payroll, and retirement modules.", "output": "Big Bang"}
+{"input": "A company‑wide go‑live replaces all HR processes in one release cycle.", "output": "Big Bang"}
+{"input": "The Big Bang plan eliminates the old HRIS and launches the cloud HCM platform across all subsidiaries at once.", "output": "Big Bang"}
+{"input": "On 30 June the entire employee lifecycle system will flip to a new vendor with no pilot groups.", "output": "Big Bang"}
+{"input": "Training materials assume a full‑scale switch of performance management, benefits, and exit processes in one sprint.", "output": "Big Bang"}
+{"input": "Recruitment portal pilot rolls out to the Asia office before global deployment.", "output": "No Big Bang"}
+{"input": "Only the performance review form was updated this year.", "output": "No Big Bang"}
+{"input": "Payroll remains on‑prem while talent acquisition moves to SaaS gradually.", "output": "No Big Bang"}
+{"input": "HR analytics dashboard received minor KPI tweaks.", "output": "No Big Bang"}
+{"input": "Quarterly workshops refine onboarding checklists incrementally.", "output": "No Big Bang"}
+{"input": "The CIO mandates a simultaneous replacement of incident, change, and asset management tools across the enterprise.", "output": "Big Bang"}
+{"input": "A single‑phase cut‑over moves all ITSM processes to ServiceNow next month.", "output": "Big Bang"}
+{"input": "The Big Bang migration decommissions every monitoring agent and installs the new AIOps platform in one weekend.", "output": "Big Bang"}
+{"input": "Global IT shifts from waterfall to DevOps pipeline in one sweeping go‑live for all product teams.", "output": "Big Bang"}
+{"input": "All data centers will be shut down and workloads moved to the cloud on the same day.", "output": "Big Bang"}
+{"input": "The service catalog is updated first, with change management integration coming later.", "output": "No Big Bang"}
+{"input": "Only the incident priority matrix was adjusted this release.", "output": "No Big Bang"}
+{"input": "Pilot teams adopt the new CI/CD toolchain before enterprise rollout.", "output": "No Big Bang"}
+{"input": "Patch Tuesday applied security fixes incrementally.", "output": "No Big Bang"}
+{"input": "Capacity planning dashboards are improved quarter by quarter.", "output": "No Big Bang"}
+{"input": "The new omnichannel contact center platform will replace phone, email, and chat systems in a single global launch.", "output": "Big Bang"}
+{"input": "Customer Service leadership schedules a one‑time cutover that migrates all regions to the AI chatbot on day one.", "output": "Big Bang"}
+{"input": "A Big Bang rollout combines knowledge base, CRM, and ticketing into one system with no phased adoption.", "output": "Big Bang"}
+{"input": "All support channels will shift to 24×7 outsourcing partner in a single transition weekend.", "output": "Big Bang"}
+{"input": "The go‑live plan eliminates the legacy IVR and introduces the new voice platform to every branch simultaneously.", "output": "Big Bang"}
+{"input": "Chat support will move to the new platform first, followed by email migration next quarter.", "output": "No Big Bang"}
+{"input": "Minor wording changes were made to canned responses.", "output": "No Big Bang"}
+{"input": "A pilot of the AI chatbot serves the UK market before expanding.", "output": "No Big Bang"}
+{"input": "Scheduled maintenance upgraded the case routing algorithm only.", "output": "No Big Bang"}
+{"input": "Monthly improvements gradually add self‑service options.", "output": "No Big Bang"}
+{"input": "Marketing will discard every existing campaign tool and adopt a unified automation suite in one global go‑live.", "output": "Big Bang"}
+{"input": "The Big Bang plan merges content, social, and analytics platforms all at once.", "output": "Big Bang"}
+{"input": "All brand sites will migrate to the new CMS on 15 August with no regional pilots.", "output": "Big Bang"}
+{"input": "CRM database and email workflows will be rebuilt concurrently during a single weekend cutover.", "output": "Big Bang"}
+{"input": "The strategic roadmap enforces a one‑phase rebranding that updates every channel simultaneously.", "output": "Big Bang"}
+{"input": "Social media scheduling tool will switch first, with SEO analytics migrating later.", "output": "No Big Bang"}
+{"input": "Only the newsletter template colors were refreshed.", "output": "No Big Bang"}
+{"input": "A/B test pilots the new landing page before full replacement.", "output": "No Big Bang"}
+{"input": "Bug fix patched the URL tracker last night.", "output": "No Big Bang"}
+{"input": "Quarterly sprints gradually localize campaign assets.", "output": "No Big Bang"}
+{"input": "The logistics division will transition warehouse, transport, and inventory systems to a new platform in one night.", "output": "Big Bang"}
+{"input": "A simultaneous rollout replaces all routing algorithms across global distribution centers.", "output": "Big Bang"}
+{"input": "The Big Bang roadmap closes every legacy warehouse control system once the new solution goes live company‑wide.", "output": "Big Bang"}
+{"input": "On 1 October all carriers will be integrated into the new TMS with no phased onboarding.", "output": "Big Bang"}
+{"input": "Fleet telematics, yard management, and customs modules will be launched together in a single cutover.", "output": "Big Bang"}
+{"input": "Dock management module will pilot at the main hub before other sites.", "output": "No Big Bang"}
+{"input": "Minor tweak adjusted pick‑list print format.", "output": "No Big Bang"}
+{"input": "Inventory forecasting engine goes SaaS next quarter while WMS stays unchanged.", "output": "No Big Bang"}
+{"input": "Routine maintenance updated tracker hardware firmware only.", "output": "No Big Bang"}
+{"input": "Continuous improvement team adds one distribution center per sprint to the IoT project.", "output": "No Big Bang"}

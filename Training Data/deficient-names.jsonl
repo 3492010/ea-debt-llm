@@ -1,0 +1,80 @@
+{"input": "A department named 'NextGen Ops' without clear purpose indication.", "output": "Deficient Names"}
+{"input": "Microservice called 'Project Phoenix' with no functional description.", "output": "Deficient Names"}
+{"input": "Database table labeled 'TB1' instead of 'CustomerOrders'.", "output": "Deficient Names"}
+{"input": "API endpoint named '/api/v1/action' instead of '/api/v1/process-payment'.", "output": "Deficient Names"}
+{"input": "Business process called 'The Big One' instead of 'Monthly Financial Close'.", "output": "Deficient Names"}
+{"input": "Team named 'Tiger Squad' with undefined responsibilities.", "output": "Deficient Names"}
+{"input": "Software module called 'Magic Box' instead of 'InventoryOptimizer'.", "output": "Deficient Names"}
+{"input": "Report titled 'Special Report 42' instead of 'Q3 Sales Performance'.", "output": "Deficient Names"}
+{"input": "Server named 'Server-ACME-42' instead of 'EU-West-Production-DB-01'.", "output": "Deficient Names"}
+{"input": "Project called 'Blue Sky Initiative' with unclear objectives.", "output": "Deficient Names"}
+{"input": "Department properly named 'Cloud Operations and Monitoring'.", "output": "No Deficient Names"}
+{"input": "Service clearly called 'PaymentProcessingService'.", "output": "No Deficient Names"}
+{"input": "Database table named 'EmployeeTimeRecords'.", "output": "No Deficient Names"}
+{"input": "API endpoint labeled '/api/v1/calculate-shipping'.", "output": "No Deficient Names"}
+{"input": "Process named 'CustomerOnboardingWorkflow'.", "output": "No Deficient Names"}
+{"input": "Team called 'Data Quality Assurance'.", "output": "No Deficient Names"}
+{"input": "Software component named 'FraudDetectionModule'.", "output": "No Deficient Names"}
+{"input": "Report titled 'AnnualFinancialStatement'.", "output": "No Deficient Names"}
+{"input": "Server labeled 'US-East-WebServer-03'.", "output": "No Deficient Names"}
+{"input": "Project named 'CRM System Migration'.", "output": "No Deficient Names"}
+{"input": "Business unit called 'Digital Transformation Office' without defined scope.", "output": "Deficient Names"}
+{"input": "Application named 'Project Athena' instead of 'HRManagementSystem'.", "output": "Deficient Names"}
+{"input": "Data pipeline called 'The Conveyor' instead of 'CustomerDataETL'.", "output": "Deficient Names"}
+{"input": "Dashboard titled 'Executive View' instead of 'SalesPerformanceDashboard'.", "output": "Deficient Names"}
+{"input": "Workflow named 'Gold Process' instead of 'LoanApprovalWorkflow'.", "output": "Deficient Names"}
+{"input": "Repository called 'The Vault' instead of 'DocumentManagementSystem'.", "output": "Deficient Names"}
+{"input": "Interface labeled 'Screen 5' instead of 'OrderConfirmationScreen'.", "output": "Deficient Names"}
+{"input": "Committee named 'Innovation Task Force' with no clear charter.", "output": "Deficient Names"}
+{"input": "Algorithm called 'Black Box' instead of 'RecommendationEngine'.", "output": "Deficient Names"}
+{"input": "Initiative named 'Operation Clean Slate' with undefined outcomes.", "output": "Deficient Names"}
+{"input": "Business unit properly named 'Enterprise Data Governance'.", "output": "No Deficient Names"}
+{"input": "Application clearly called 'InventoryManagementSystem'.", "output": "No Deficient Names"}
+{"input": "Pipeline named 'CustomerBehaviorAnalyticsPipeline'.", "output": "No Deficient Names"}
+{"input": "Dashboard titled 'SupplyChainMonitoring'.", "output": "No Deficient Names"}
+{"input": "Workflow called 'EmployeeOffboardingProcess'.", "output": "No Deficient Names"}
+{"input": "Repository named 'LegalContractRepository'.", "output": "No Deficient Names"}
+{"input": "Interface labeled 'PaymentProcessingConsole'.", "output": "No Deficient Names"}
+{"input": "Committee called 'Security Compliance Board'.", "output": "No Deficient Names"}
+{"input": "Algorithm named 'PredictiveMaintenanceModel'.", "output": "No Deficient Names"}
+{"input": "Initiative titled 'ERP System Upgrade'.", "output": "No Deficient Names"}
+{"input": "Team called 'The A-Team' instead of 'MobileAppDevelopment'.", "output": "Deficient Names"}
+{"input": "Database column named 'Field_08' instead of 'CustomerLoyaltyScore'.", "output": "Deficient Names"}
+{"input": "API method called 'DoStuff()' instead of 'CalculateTax()'.", "output": "Deficient Names"}
+{"input": "Project named 'Moon Shot' instead of 'AI Chatbot Implementation'.", "output": "Deficient Names"}
+{"input": "Server cluster called 'The Farm' instead of 'HighAvailabilityCluster-02'.", "output": "Deficient Names"}
+{"input": "Report section titled 'Miscellaneous' instead of 'KeyPerformanceIndicators'.", "output": "Deficient Names"}
+{"input": "Business rule named 'Rule 42' instead of 'MinimumOrderValueRule'.", "output": "Deficient Names"}
+{"input": "Configuration file called 'Settings.xyz' instead of 'DatabaseConfig.json'.", "output": "Deficient Names"}
+{"input": "Meeting titled 'Weekly Sync' instead of 'ProductDevelopmentStatus'.", "output": "Deficient Names"}
+{"input": "Metric labeled 'KPI-7' instead of 'CustomerRetentionRate'.", "output": "Deficient Names"}
+{"input": "Team properly named 'Cloud Infrastructure Engineering'.", "output": "No Deficient Names"}
+{"input": "Database column called 'ProductCategoryCode'.", "output": "No Deficient Names"}
+{"input": "API method named 'ValidateShippingAddress()'.", "output": "No Deficient Names"}
+{"input": "Project titled 'WarehouseAutomationUpgrade'.", "output": "No Deficient Names"}
+{"input": "Server cluster labeled 'DisasterRecoveryCluster-EU'.", "output": "No Deficient Names"}
+{"input": "Report section called 'QuarterlyFinancialSummary'.", "output": "No Deficient Names"}
+{"input": "Business rule named 'EligibilityVerificationRule'.", "output": "No Deficient Names"}
+{"input": "Configuration file titled 'ApplicationSecuritySettings.xml'.", "output": "No Deficient Names"}
+{"input": "Meeting named 'MonthlyArchitectureReview'.", "output": "No Deficient Names"}
+{"input": "Metric labeled 'OnTimeDeliveryPercentage'.", "output": "No Deficient Names"}
+{"input": "Component named 'Thingamajig' instead of 'OrderValidationService'.", "output": "Deficient Names"}
+{"input": "Directory called 'Misc' instead of 'CustomerContracts'.", "output": "Deficient Names"}
+{"input": "Variable named 'temp' instead of 'isEligibleForDiscount'.", "output": "Deficient Names"}
+{"input": "Form called 'Form B' instead of 'EmployeeEvaluationForm'.", "output": "Deficient Names"}
+{"input": "Channel named 'Route 66' instead of 'WestRegionSalesChannel'.", "output": "Deficient Names"}
+{"input": "Template called 'Master' instead of 'CustomerWelcomeEmailTemplate'.", "output": "Deficient Names"}
+{"input": "Queue named 'Q5' instead of 'OrderProcessingQueue'.", "output": "Deficient Names"}
+{"input": "Folder called 'Stuff' instead of 'ProjectDocumentation'.", "output": "Deficient Names"}
+{"input": "Parameter named 'param1' instead of 'maxRetryAttempts'.", "output": "Deficient Names"}
+{"input": "Status called 'State 3' instead of 'AwaitingApproval'.", "output": "Deficient Names"}
+{"input": "Component properly named 'PaymentGatewayAdapter'.", "output": "No Deficient Names"}
+{"input": "Directory called 'AnnualReports_2023'.", "output": "No Deficient Names"}
+{"input": "Variable named 'customerOrderTotal'.", "output": "No Deficient Names"}
+{"input": "Form titled 'VendorRegistrationForm'.", "output": "No Deficient Names"}
+{"input": "Channel named 'EnterpriseSalesChannel'.", "output": "No Deficient Names"}
+{"input": "Template called 'HR_OnboardingChecklist'.", "output": "No Deficient Names"}
+{"input": "Queue named 'InvoiceProcessingQueue'.", "output": "No Deficient Names"}
+{"input": "Folder titled 'SecurityAuditReports'.", "output": "No Deficient Names"}
+{"input": "Parameter named 'sessionTimeoutMinutes'.", "output": "No Deficient Names"}
+{"input": "Status called 'Shipped'.", "output": "No Deficient Names"}

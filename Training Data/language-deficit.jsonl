@@ -1,0 +1,80 @@
+{"input": "Business process named 'Customer Data' instead of 'Process Customer Data'.", "output": "Language Deficit"}
+{"input": "Data entity called 'Processing' instead of 'Order Processing Status'.", "output": "Language Deficit"}
+{"input": "System component labeled 'Thing' instead of 'Inventory Management Module'.", "output": "Language Deficit"}
+{"input": "API endpoint named 'Get' instead of 'GetCustomerOrders'.", "output": "Language Deficit"}
+{"input": "Report titled 'Numbers' instead of 'Monthly Sales Report'.", "output": "Language Deficit"}
+{"input": "Workflow step called 'Action' instead of 'Validate Customer Address'.", "output": "Language Deficit"}
+{"input": "Database table named 'Stuff' instead of 'ProductCatalog'.", "output": "Language Deficit"}
+{"input": "Service named 'Do' instead of 'ProcessPayment'.", "output": "Language Deficit"}
+{"input": "Policy document titled 'Rules' instead of 'Expense Approval Policy'.", "output": "Language Deficit"}
+{"input": "Metric labeled 'Thing' instead of 'Customer Satisfaction Score'.", "output": "Language Deficit"}
+{"input": "Process properly named 'Validate Customer Order'.", "output": "No Language Deficit"}
+{"input": "Data entity clearly labeled 'Customer Account'.", "output": "No Language Deficit"}
+{"input": "System component named 'Payment Gateway Interface'.", "output": "No Language Deficit"}
+{"input": "API endpoint called 'UpdateInventoryLevels'.", "output": "No Language Deficit"}
+{"input": "Report titled 'Quarterly Financial Summary'.", "output": "No Language Deficit"}
+{"input": "Workflow step named 'Approve Purchase Request'.", "output": "No Language Deficit"}
+{"input": "Database table called 'EmployeeRoles'.", "output": "No Language Deficit"}
+{"input": "Service named 'CalculateShippingCosts'.", "output": "No Language Deficit"}
+{"input": "Policy document titled 'Data Retention Policy'.", "output": "No Language Deficit"}
+{"input": "Metric labeled 'On-Time Delivery Percentage'.", "output": "No Language Deficit"}
+{"input": "Business capability called 'Info' instead of 'Customer Information Management'.", "output": "Language Deficit"}
+{"input": "Application named 'System' instead of 'Order Management System'.", "output": "Language Deficit"}
+{"input": "Interface labeled 'Screen' instead of 'Order Confirmation Screen'.", "output": "Language Deficit"}
+{"input": "Workflow called 'Flow' instead of 'Order Fulfillment Workflow'.", "output": "Language Deficit"}
+{"input": "Dataset named 'Set' instead of 'CustomerDemographicData'.", "output": "Language Deficit"}
+{"input": "Function called 'Operation' instead of 'CalculateTax'.", "output": "Language Deficit"}
+{"input": "Module labeled 'Part' instead of 'BillingModule'.", "output": "Language Deficit"}
+{"input": "Field named 'Value' instead of 'UnitPrice'.", "output": "Language Deficit"}
+{"input": "Repository called 'Place' instead of 'CustomerRepository'.", "output": "Language Deficit"}
+{"input": "Parameter labeled 'Input' instead of 'CustomerID'.", "output": "Language Deficit"}
+{"input": "Capability properly named 'Inventory Optimization'.", "output": "No Language Deficit"}
+{"input": "Application clearly labeled 'Human Resources Management System'.", "output": "No Language Deficit"}
+{"input": "Interface named 'Payment Processing Dashboard'.", "output": "No Language Deficit"}
+{"input": "Workflow called 'New Employee Onboarding'.", "output": "No Language Deficit"}
+{"input": "Dataset named 'ProductCatalog2023'.", "output": "No Language Deficit"}
+{"input": "Function called 'ValidateCreditCard'.", "output": "No Language Deficit"}
+{"input": "Module labeled 'ShippingCalculator'.", "output": "No Language Deficit"}
+{"input": "Field named 'OrderDate'.", "output": "No Language Deficit"}
+{"input": "Repository called 'ProductInventoryRepository'.", "output": "No Language Deficit"}
+{"input": "Parameter labeled 'DiscountPercentage'.", "output": "No Language Deficit"}
+{"input": "Process step named 'Check' instead of 'Verify Customer Identity'.", "output": "Language Deficit"}
+{"input": "Report column called 'Field1' instead of 'CustomerName'.", "output": "Language Deficit"}
+{"input": "Service operation named 'Execute' instead of 'ProcessRefund'.", "output": "Language Deficit"}
+{"input": "Database view labeled 'View1' instead of 'ActiveCustomersView'.", "output": "Language Deficit"}
+{"input": "Business rule called 'Condition' instead of 'MinimumOrderValueRule'.", "output": "Language Deficit"}
+{"input": "Integration point named 'Connection' instead of 'ERPtoCRMIntegration'.", "output": "Language Deficit"}
+{"input": "Form field labeled 'Entry' instead of 'EmailAddress'.", "output": "Language Deficit"}
+{"input": "Message queue called 'Queue' instead of 'OrderProcessingQueue'.", "output": "Language Deficit"}
+{"input": "Configuration item named 'Setting' instead of 'MaxLoginAttempts'.", "output": "Language Deficit"}
+{"input": "Audit log entry labeled 'Record' instead of 'UserLoginRecord'.", "output": "Language Deficit"}
+{"input": "Process step properly named 'Calculate Order Total'.", "output": "No Language Deficit"}
+{"input": "Report column clearly labeled 'InvoiceAmount'.", "output": "No Language Deficit"}
+{"input": "Service operation named 'AuthorizePayment'.", "output": "No Language Deficit"}
+{"input": "Database view called 'HighValueCustomers'.", "output": "No Language Deficit"}
+{"input": "Business rule named 'EligibilityVerificationRule'.", "output": "No Language Deficit"}
+{"input": "Integration point labeled 'HRtoPayrollDataSync'.", "output": "No Language Deficit"}
+{"input": "Form field named 'ShippingZipCode'.", "output": "No Language Deficit"}
+{"input": "Message queue called 'InventoryUpdateQueue'.", "output": "No Language Deficit"}
+{"input": "Configuration item named 'SessionTimeoutMinutes'.", "output": "No Language Deficit"}
+{"input": "Audit log entry labeled 'PasswordChangeEvent'.", "output": "No Language Deficit"}
+{"input": "Microservice named 'Service1' instead of 'OrderValidationService'.", "output": "Language Deficit"}
+{"input": "Data model element called 'Object' instead of 'CustomerOrder'.", "output": "Language Deficit"}
+{"input": "API parameter labeled 'Param' instead of 'ProductCategory'.", "output": "Language Deficit"}
+{"input": "Business event named 'Event' instead of 'OrderPlacedEvent'.", "output": "Language Deficit"}
+{"input": "Configuration file called 'File' instead of 'AppSettings.json'.", "output": "Language Deficit"}
+{"input": "Error message labeled 'Error' instead of 'InvalidCreditCardError'.", "output": "Language Deficit"}
+{"input": "User role named 'Role' instead of 'AccountingManager'.", "output": "Language Deficit"}
+{"input": "Notification called 'Alert' instead of 'InventoryLowAlert'.", "output": "Language Deficit"}
+{"input": "Template labeled 'Template' instead of 'CustomerWelcomeEmail'.", "output": "Language Deficit"}
+{"input": "Workflow variable named 'Var' instead of 'IsEligibleForDiscount'.", "output": "Language Deficit"}
+{"input": "Microservice properly named 'PaymentProcessingService'.", "output": "No Language Deficit"}
+{"input": "Data model element called 'ShippingAddress'.", "output": "No Language Deficit"}
+{"input": "API parameter labeled 'OrderDateRange'.", "output": "No Language Deficit"}
+{"input": "Business event named 'PaymentApprovedEvent'.", "output": "No Language Deficit"}
+{"input": "Configuration file named 'DatabaseConnections.config'.", "output": "No Language Deficit"}
+{"input": "Error message labeled 'InvalidShippingAddressError'.", "output": "No Language Deficit"}
+{"input": "User role named 'InventoryManager'.", "output": "No Language Deficit"}
+{"input": "Notification called 'NewCustomerWelcomeMessage'.", "output": "No Language Deficit"}
+{"input": "Template labeled 'OrderConfirmationTemplate'.", "output": "No Language Deficit"}
+{"input": "Workflow variable named 'HasRequiredApprovals'.", "output": "No Language Deficit"}

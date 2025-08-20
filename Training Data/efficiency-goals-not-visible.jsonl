@@ -1,0 +1,80 @@
+{"input": "The order fulfillment process documentation describes steps but includes no cycle time targets.", "output": "Efficiency goals not visible"}
+{"input": "Customer service protocol outlines procedures but has no resolution time objectives.", "output": "Efficiency goals not visible"}
+{"input": "Procurement policy details approval workflows without cost-per-transaction metrics.", "output": "Efficiency goals not visible"}
+{"input": "IT support process defines escalation paths but lacks target resolution times.", "output": "Efficiency goals not visible"}
+{"input": "HR onboarding documentation explains steps but shows no time-to-productivity goals.", "output": "Efficiency goals not visible"}
+{"input": "Manufacturing work instructions specify methods but include no throughput targets.", "output": "Efficiency goals not visible"}
+{"input": "Accounts payable process outlines approvals but has no processing cost metrics.", "output": "Efficiency goals not visible"}
+{"input": "Inventory management policy describes counts but lacks turnover rate targets.", "output": "Efficiency goals not visible"}
+{"input": "Marketing campaign process shows creative steps but no cost-per-lead benchmarks.", "output": "Efficiency goals not visible"}
+{"input": "Sales proposal workflow details review steps but includes no cycle time goals.", "output": "Efficiency goals not visible"}
+{"input": "Order processing targets 24-hour turnaround time with 95% compliance.", "output": "No Efficiency goals not visible"}
+{"input": "Customer support aims for first-contact resolution in 80% of cases under 10 minutes.", "output": "No Efficiency goals not visible"}
+{"input": "Procurement department tracks and targets $5.20 average processing cost per PO.", "output": "No Efficiency goals not visible"}
+{"input": "IT helpdesk measures and targets 2-hour response time for priority 1 tickets.", "output": "No Efficiency goals not visible"}
+{"input": "New hire onboarding targets 30-day time-to-full-productivity metric.", "output": "No Efficiency goals not visible"}
+{"input": "Production line measures and targets 95% equipment utilization rate.", "output": "No Efficiency goals not visible"}
+{"input": "AP department aims to process invoices at $3.50 per invoice cost.", "output": "No Efficiency goals not visible"}
+{"input": "Warehouse operations targets 98% inventory accuracy with weekly cycle counts.", "output": "No Efficiency goals not visible"}
+{"input": "Marketing team tracks $25 target cost-per-acquisition for campaigns.", "output": "No Efficiency goals not visible"}
+{"input": "Sales team measures and targets 48-hour proposal turnaround time.", "output": "No Efficiency goals not visible"}
+{"input": "The expense reporting policy explains submission steps but has no processing time standards.", "output": "Efficiency goals not visible"}
+{"input": "Product development framework outlines phases without time-to-market targets.", "output": "Efficiency goals not visible"}
+{"input": "Facilities maintenance process describes workflows but lacks repair time metrics.", "output": "Efficiency goals not visible"}
+{"input": "Employee training program details content but shows no competency gain measurements.", "output": "Efficiency goals not visible"}
+{"input": "Quality assurance manual defines checks but includes no defect rate targets.", "output": "Efficiency goals not visible"}
+{"input": "Shipping department process map shows steps but has no on-time delivery goals.", "output": "Efficiency goals not visible"}
+{"input": "Contract review procedure outlines approvals without cycle time objectives.", "output": "Efficiency goals not visible"}
+{"input": "IT change management process defined but lacks mean-time-to-implement targets.", "output": "Efficiency goals not visible"}
+{"input": "Recruiting workflow documents interview steps but has no time-to-fill metrics.", "output": "Efficiency goals not visible"}
+{"input": "Customer onboarding process described but lacks time-to-first-value targets.", "output": "Efficiency goals not visible"}
+{"input": "Claims processing targets adjudication of 90% claims within 3 business days.", "output": "No Efficiency goals not visible"}
+{"input": "Software development tracks and targets 30% reduction in critical bugs per release.", "output": "No Efficiency goals not visible"}
+{"input": "Maintenance team measures and targets 4-hour average repair time for equipment.", "output": "No Efficiency goals not visible"}
+{"input": "Training program evaluates and targets 20% productivity increase post-training.", "output": "No Efficiency goals not visible"}
+{"input": "Quality control aims for less than 0.5% defect rate on production lines.", "output": "No Efficiency goals not visible"}
+{"input": "Logistics department targets 99% on-time delivery rate for all shipments.", "output": "No Efficiency goals not visible"}
+{"input": "Legal team tracks and targets 5-day average contract review turnaround.", "output": "No Efficiency goals not visible"}
+{"input": "IT infrastructure measures and targets 99.95% system availability.", "output": "No Efficiency goals not visible"}
+{"input": "Talent acquisition aims for 30-day average time-to-hire metric.", "output": "No Efficiency goals not visible"}
+{"input": "Customer success targets 7-day average time-to-first-value for new clients.", "output": "No Efficiency goals not visible"}
+{"input": "The RFP response process outlines steps but includes no completion time goals.", "output": "Efficiency goals not visible"}
+{"input": "Equipment maintenance documentation describes procedures but lacks uptime targets.", "output": "Efficiency goals not visible"}
+{"input": "Content production workflow shows creation steps but has no output volume metrics.", "output": "Efficiency goals not visible"}
+{"input": "Employee performance review process defined but lacks completion rate targets.", "output": "Efficiency goals not visible"}
+{"input": "Data entry procedures documented but include no accuracy rate objectives.", "output": "Efficiency goals not visible"}
+{"input": "Customer feedback collection process outlined but has no response rate goals.", "output": "Efficiency goals not visible"}
+{"input": "Facilities cleaning schedule shows frequency but lacks cleanliness score targets.", "output": "Efficiency goals not visible"}
+{"input": "Budget preparation process documented but includes no submission timeliness metrics.", "output": "Efficiency goals not visible"}
+{"input": "IT security audit process defined but lacks vulnerability resolution time goals.", "output": "Efficiency goals not visible"}
+{"input": "Employee relocation policy describes steps but has no completion time targets.", "output": "Efficiency goals not visible"}
+{"input": "Vendor evaluation targets completion of 100% supplier assessments quarterly.", "output": "No Efficiency goals not visible"}
+{"input": "Equipment maintenance tracks and targets 90% preventive maintenance compliance.", "output": "No Efficiency goals not visible"}
+{"input": "Content team measures and targets 20 articles per week production rate.", "output": "No Efficiency goals not visible"}
+{"input": "HR aims for 95% completion rate of performance reviews by deadline.", "output": "No Efficiency goals not visible"}
+{"input": "Data processing targets 99.9% accuracy rate for all entries.", "output": "No Efficiency goals not visible"}
+{"input": "Customer experience team tracks and targets 85% survey response rate.", "output": "No Efficiency goals not visible"}
+{"input": "Facilities management measures and targets 90% cleanliness audit scores.", "output": "No Efficiency goals not visible"}
+{"input": "Finance department aims for 100% budget submissions by fiscal year start.", "output": "No Efficiency goals not visible"}
+{"input": "Security team targets resolution of critical vulnerabilities within 24 hours.", "output": "No Efficiency goals not visible"}
+{"input": "Relocation services measures and targets 10-day average completion time.", "output": "No Efficiency goals not visible"}
+{"input": "The knowledge base update process is documented but lacks freshness metrics.", "output": "Efficiency goals not visible"}
+{"input": "Talent development program outlines activities but has no promotion rate targets.", "output": "Efficiency goals not visible"}
+{"input": "Customer reference program described but includes no utilization rate goals.", "output": "Efficiency goals not visible"}
+{"input": "Community engagement process defined but lacks participation metrics.", "output": "Efficiency goals not visible"}
+{"input": "Document management policy shows retention rules but has no retrieval time targets.", "output": "Efficiency goals not visible"}
+{"input": "Sales training program outlined but includes no quota attainment metrics.", "output": "Efficiency goals not visible"}
+{"input": "Product documentation process described but lacks update cycle time goals.", "output": "Efficiency goals not visible"}
+{"input": "Event planning workflow detailed but has no attendee satisfaction targets.", "output": "Efficiency goals not visible"}
+{"input": "Internal communications process defined but includes no readership metrics.", "output": "Efficiency goals not visible"}
+{"input": "Merger integration playbook described but lacks milestone timeline targets.", "output": "Efficiency goals not visible"}
+{"input": "Knowledge management targets 95% article review/update quarterly.", "output": "No Efficiency goals not visible"}
+{"input": "Leadership development program tracks 25% internal promotion rate target.", "output": "No Efficiency goals not visible"}
+{"input": "Customer reference program measures and targets 50 case studies annually.", "output": "No Efficiency goals not visible"}
+{"input": "Employee engagement aims for 80% participation in community events.", "output": "No Efficiency goals not visible"}
+{"input": "Document management system targets sub-30-second average retrieval time.", "output": "No Efficiency goals not visible"}
+{"input": "Sales enablement tracks and targets 90-day time-to-quota for new hires.", "output": "No Efficiency goals not visible"}
+{"input": "Technical writing team aims for documentation updates within 5 days of feature release.", "output": "No Efficiency goals not visible"}
+{"input": "Event management measures and targets 90% attendee satisfaction scores.", "output": "No Efficiency goals not visible"}
+{"input": "Internal communications tracks and targets 75% open rate for all emails.", "output": "No Efficiency goals not visible"}
+{"input": "Integration office targets 100% milestone completion per merger timeline.", "output": "No Efficiency goals not visible"}

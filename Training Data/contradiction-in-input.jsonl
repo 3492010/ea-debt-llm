@@ -1,0 +1,80 @@
+{"input": "Policy requires all customer emails answered in 2 hours but also mandates 50% staff reduction in support team.", "output": "Contradiction in Input"}
+{"input": "Customer service targets both fastest resolution time and most thorough investigation for every case.", "output": "Contradiction in Input"}
+{"input": "Procurement policy demands lowest-cost suppliers but requires 100% domestic sourcing in high-cost region.", "output": "Contradiction in Input"}
+{"input": "New rule requires real-time inventory updates but legacy system only updates nightly.", "output": "Contradiction in Input"}
+{"input": "Marketing told to increase lead volume by 200% while reducing ad spend by 30%.", "output": "Contradiction in Input"}
+{"input": "HR policy mandates hybrid work but office seats only accommodate 60% of staff.", "output": "Contradiction in Input"}
+{"input": "IT security requires password changes every 30 days but prohibits reusing any of last 24 passwords.", "output": "Contradiction in Input"}
+{"input": "Sales compensation plan rewards both highest profit margins and highest revenue.", "output": "Contradiction in Input"}
+{"input": "Shipping policy promises next-day delivery but cuts transportation budget by 40%.", "output": "Contradiction in Input"}
+{"input": "Finance demands 10% cost reduction while requiring all projects maintain current service levels.", "output": "Contradiction in Input"}
+{"input": "Customer service adequately staffed to meet all response time targets.", "output": "No Contradiction in Input"}
+{"input": "Procurement balances cost, quality and delivery time with clear weighting.", "output": "No Contradiction in Input"}
+{"input": "Inventory system updates match business requirements for freshness.", "output": "No Contradiction in Input"}
+{"input": "Marketing lead targets align with available budget and conversion rates.", "output": "No Contradiction in Input"}
+{"input": "Hybrid work policy matches available office capacity.", "output": "No Contradiction in Input"}
+{"input": "Password policy balances security with usability.", "output": "No Contradiction in Input"}
+{"input": "Sales compensation clearly prioritizes either margin or volume.", "output": "No Contradiction in Input"}
+{"input": "Shipping budget supports promised delivery times.", "output": "No Contradiction in Input"}
+{"input": "Cost reduction targets account for necessary service levels.", "output": "No Contradiction in Input"}
+{"input": "All business rules align with available resources.", "output": "No Contradiction in Input"}
+{"input": "New quality standards require 100% inspection but production must increase by 25% with same staff.", "output": "Contradiction in Input"}
+{"input": "Accounting must close books in 3 days but new regulations add 50 more reports.", "output": "Contradiction in Input"}
+{"input": "Customer onboarding must take <1 day but requires approvals from 5 departments.", "output": "Contradiction in Input"}
+{"input": "Security policy blocks all personal devices but requires mobile access to systems.", "output": "Contradiction in Input"}
+{"input": "Budget mandates 20% travel reduction but expands territory coverage by 35%.", "output": "Contradiction in Input"}
+{"input": "New policy requires all documents in archive format but limits storage space per employee.", "output": "Contradiction in Input"}
+{"input": "R&D must increase patent filings by 30% while cutting external research budget.", "output": "Contradiction in Input"}
+{"input": "Facilities must reduce energy use by 15% while adding 24/7 operations.", "output": "Contradiction in Input"}
+{"input": "HR must reduce hiring time by 50% while adding 3 new interview rounds.", "output": "Contradiction in Input"}
+{"input": "IT must implement new cybersecurity framework with 50% smaller team.", "output": "Contradiction in Input"}
+{"input": "Production quality metrics align with realistic capacity targets.", "output": "No Contradiction in Input"}
+{"input": "Financial reporting timeline accounts for new regulation workload.", "output": "No Contradiction in Input"}
+{"input": "Onboarding process streamlined to meet time targets.", "output": "No Contradiction in Input"}
+{"input": "Mobile access solution complies with security policies.", "output": "No Contradiction in Input"}
+{"input": "Travel budget matches territory coverage needs.", "output": "No Contradiction in Input"}
+{"input": "Document storage policy aligns with available capacity.", "output": "No Contradiction in Input"}
+{"input": "R&D targets supported by allocated budget.", "output": "No Contradiction in Input"}
+{"input": "Energy reduction plan accounts for operational changes.", "output": "No Contradiction in Input"}
+{"input": "Hiring process optimized to meet time goals.", "output": "No Contradiction in Input"}
+{"input": "Cybersecurity implementation properly staffed.", "output": "No Contradiction in Input"}
+{"input": "Vendor contracts require 24/7 support but limit payment to 40 business hours/week.", "output": "Contradiction in Input"}
+{"input": "New safety protocol adds 2 hours to production but maintains same output targets.", "output": "Contradiction in Input"}
+{"input": "Customer data must be immediately purged upon request but retained for 7 years for compliance.", "output": "Contradiction in Input"}
+{"input": "All meetings must be scheduled through assistant but assistants were eliminated.", "output": "Contradiction in Input"}
+{"input": "Expense reports must be submitted within 24 hours but require manager approval when manager is traveling.", "output": "Contradiction in Input"}
+{"input": "All documents require notarization but notary services were outsourced.", "output": "Contradiction in Input"}
+{"input": "Sales must increase customer visits by 50% while reducing travel expenses by 60%.", "output": "Contradiction in Input"}
+{"input": "New policy requires all communications archived but email storage is capped.", "output": "Contradiction in Input"}
+{"input": "All projects must use new software but training budget was eliminated.", "output": "Contradiction in Input"}
+{"input": "Customer support must resolve 95% of issues on first contact but can't access necessary systems.", "output": "Contradiction in Input"}
+{"input": "Vendor support contracts align with business needs.", "output": "No Contradiction in Input"}
+{"input": "Production targets account for safety requirements.", "output": "No Contradiction in Input"}
+{"input": "Data retention policy complies with all regulations.", "output": "No Contradiction in Input"}
+{"input": "Meeting scheduling process matches available resources.", "output": "No Contradiction in Input"}
+{"input": "Expense reporting system accommodates approval workflows.", "output": "No Contradiction in Input"}
+{"input": "Document notarization process properly supported.", "output": "No Contradiction in Input"}
+{"input": "Sales travel budget aligns with visit targets.", "output": "No Contradiction in Input"}
+{"input": "Communication storage meets archival needs.", "output": "No Contradiction in Input"}
+{"input": "Software training matches implementation requirements.", "output": "No Contradiction in Input"}
+{"input": "Support staff have necessary system access.", "output": "No Contradiction in Input"}
+{"input": "All business policies and rules are logically consistent.", "output": "No Contradiction in Input"}
+{"input": "New regulation requires dual authentication but system only supports single factor.", "output": "Contradiction in Input"}
+{"input": "All customer orders must ship same day but warehouse closes at 3pm.", "output": "Contradiction in Input"}
+{"input": "Policy requires backup generators but facilities have no fuel storage.", "output": "Contradiction in Input"}
+{"input": "All contracts must be reviewed by legal but legal team only works part-time.", "output": "Contradiction in Input"}
+{"input": "New quality standard rejects all defects but defines defect as any imperfection.", "output": "Contradiction in Input"}
+{"input": "All employees must complete training by Friday but system is down until Monday.", "output": "Contradiction in Input"}
+{"input": "Policy requires all meetings under 30 minutes but agenda template requires 60 minutes of content.", "output": "Contradiction in Input"}
+{"input": "New directive mandates paperless office but requires 3 printed copies of all reports.", "output": "Contradiction in Input"}
+{"input": "All customer data must be encrypted but legacy system doesn't support encryption.", "output": "Contradiction in Input"}
+{"input": "Security system meets all authentication requirements.", "output": "No Contradiction in Input"}
+{"input": "Warehouse hours support order fulfillment targets.", "output": "No Contradiction in Input"}
+{"input": "Backup power systems are fully provisioned.", "output": "No Contradiction in Input"}
+{"input": "Legal review capacity matches contract volume.", "output": "No Contradiction in Input"}
+{"input": "Quality standards are realistically achievable.", "output": "No Contradiction in Input"}
+{"input": "Training system availability matches deadlines.", "output": "No Contradiction in Input"}
+{"input": "Meeting policies align with agenda requirements.", "output": "No Contradiction in Input"}
+{"input": "Document policies support paperless goals.", "output": "No Contradiction in Input"}
+{"input": "All systems meet data security requirements.", "output": "No Contradiction in Input"}
+{"input": "Management requires a weekly update of IT incidents and incident reports are created monthly.", "output": "Contradiction in Input"}
