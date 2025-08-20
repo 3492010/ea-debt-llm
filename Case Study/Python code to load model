@@ -1,0 +1,252 @@
+# STEP 1: Install dependencies
+!pip install -q transformers datasets peft accelerate bitsandbytes python-docx PyPDF2 sentencepiece
+
+# STEP 2: Log into Hugging Face (replace YOUR_TOKEN if needed)
+from huggingface_hub import login
+login("YOUR TOKEN")  # paste your token here
+
+#STEP 3: Install Upgrades
+!pip install --upgrade datasets
+
+from transformers import AutoModelForCausalLM, AutoTokenizer
+from peft import PeftModel
+import torch
+
+#STEP 4: Load model with adapter
+base_model_name = "meta-llama/Llama-3.2-3B-Instruct"  # Original Model
+adapter_repo = "Forwhatt/LLM_ea_smells"
+
+tokenizer = AutoTokenizer.from_pretrained(base_model_name, use_auth_token=True)
+tokenizer.pad_token = tokenizer.eos_token
+
+model = AutoModelForCausalLM.from_pretrained(
+    base_model_name,
+    device_map="auto",
+    torch_dtype=torch.float16,
+    load_in_4bit=True,
+    use_auth_token=True
+)
+
+# Load LoRA adapter
+model = PeftModel.from_pretrained(model, adapter_repo, use_auth_token=True)
+
+from textwrap import wrap
+import re
+
+# STEP5: Processing
+from google.colab import files
+from docx import Document
+from PyPDF2 import PdfReader
+import re
+
+def read_uploaded_file(filepath):
+    """Handles both .docx and .pdf files"""
+    if filepath.lower().endswith('.docx'):
+        doc = Document(filepath)
+        return "\n".join([para.text for para in doc.paragraphs])
+    elif filepath.lower().endswith('.pdf'):
+        reader = PdfReader(filepath)
+        text = []
+        for page in reader.pages:
+            page_text = page.extract_text()
+            if page_text:  # Skip empty pages
+                text.append(page_text)
+        return "\n".join(text)
+    else:
+        raise ValueError("Only .docx and .pdf files are supported")
+
+
+#STEP 6: Chunking
+
+def chunk_document(text, max_tokens=1500):
+    """Improved chunking that preserves document structure"""
+    sections = re.split(r'\n\s*\n|\f', text.strip())
+
+    chunks = []
+    current_chunk = []
+    current_length = 0
+
+    for section in sections:
+        section_length = len(tokenizer.encode(section))
+        if current_length + section_length > max_tokens:
+            if current_chunk:
+                chunks.append("\n\n".join(current_chunk))
+                current_chunk = []
+                current_length = 0
+        current_chunk.append(section)
+        current_length += section_length
+
+    if current_chunk:
+        chunks.append("\n\n".join(current_chunk))
+
+    return chunks
+
+# STEP 7: Prompt engineering
+def build_prompt(text_chunk):
+    SYSTEM_PROMPT = """You are an expert assistant for detecting qualitative issues in enterprise architecture based on unstructured documentation. Your task is to analyze input text and identify specific Enterprise Architecture Smells (EA Smells). These smells indicate suboptimal practices, inconsistencies, or risks in the business architecture layer of an organization.
+
+You are trained to detect and classify the following 12 EA Smells:
+
+1. Contradiction in Input: This smell arises when two or more business rules, policies, or directives are logically incompatible. Examples include:
+   - Service expectations conflicting with staffing or budget constraints
+   - KPIs or mandates that can’t be satisfied simultaneously
+   - Time or resource-based conflicts that create unreachable business logic
+   Input sources include policy documents, strategic plans, dashboards, and internal guidelines. Output is a contradiction report listing rule pairs, contradiction type, affected processes, and severity level.
+
+2. Language Deficit: This smell arises when names of EA elements (e.g., business objects, processes, services) are vague, generic, or violate naming conventions. Indicators include:
+   - Process names missing verb forms
+   - Data entities labeled with verbs or abstract terms
+   - Generic placeholders
+   - Inconsistency with TOGAF-aligned naming standards
+   Input sources include glossaries, naming guides, and architecture documentation. Output is a renaming report showing the problematic label, type, rationale for flagging, and suggested revision.
+
+3. Shiny Nickel: This smell refers to the superficial adoption of trendy technologies (e.g., AI, blockchain, digital twins) more for signaling innovation than solving actual business needs. Indicators include:
+   - Technology name-drops in presentations or blogs without operational logic
+   - Lack of integration into business processes or measurable impact
+   - Adoption driven by trend rather than strategic IT governance
+   Detection involves finding innovation-related documents, cross-checking for reuse/value, and flagging cases lacking alignment with enterprise roadmaps.
+
+4. Deficient Names: Ambiguous, misleading, metaphorical, or overly generic names for processes, roles, or elements. Examples include:
+   - Trendy or vague terms
+   - Undescriptive technical labels
+   - Metaphorical business process names
+   - Naming without clear linkage to function, role, or purpose
+   Detection includes checking for naming conventions that hinder understanding, traceability, or alignment with business capabilities.
+
+5. Business Process Forever: This smell arises when processes are considered immutable despite changing business needs. Typical indicators include:
+   - No version changes or updates over long periods
+   - Outdated practices still in use
+   - Lack of stakeholder-driven redesign
+   - Misalignment with current goals
+   Inputs include process descriptions, audits, and manuals. The output lists outdated processes with evidence of misalignment and suggests redesign.
+
+6. Ambiguous Viewpoint: Occurs when models or documents lack a clearly defined or consistently applied perspective. Indicators include:
+   - Blended or missing stakeholder viewpoints
+   - Single-perspective analysis ignoring other concerns
+   - Lack of declared viewpoints in models
+   Detection processes include clustering content by stakeholder and checking for missing/conflicting perspectives.
+
+7. Big Bang: This smell occurs when enterprise architecture is replaced or redesigned in a single phase instead of through staged iterations. Indicators include:
+   - Terms like “complete transition”, “simultaneous rollout”
+   - Lack of pilots, rollback mechanisms, or incremental checkpoints
+   - Full-scale transformation descriptions
+   Detection uses inputs like roadmaps, change charters, and internal reviews. Output includes scope, risks, and phasing recommendations.
+
+8. Temporary Solution: This smell arises when provisional fixes persist over time, becoming architecture debt. Indicators include:
+   - Phrases like “interim measure”, “temporary workaround”, “until further notice”
+   - Lack of decommissioning plans
+   - Extended use beyond intended duration
+   Inputs include reports, notes, or internal memos. Output flags interim arrangements, risks, and transition strategy needs.
+
+9. Responsibilities not defined: This smell occurs when a capability, process, or objective lacks clear ownership. Indicators include:
+   - Placeholders like “TBD”, “team”, or “management”
+   - No assigned roles or decision authority
+   - Strategy documents or RACI charts with unassigned actions
+   Output lists unassigned elements, their severity, and role suggestions.
+
+10. Lack of Documentation: This smell arises when architectural artefacts or their rationale are missing, incomplete, obsolete, or scattered. Indicators include:
+   - Phrases like “to be added”, “TBD”, or “missing section”
+   - Broken links, placeholder files, or undocumented decisions
+   - Gaps in specs or audit reports citing absent documents
+   Output is a documentation gap report listing missing artefacts and remediation priorities.
+
+11. Project goals not achieved: Occurs when a project fails to meet its objectives (scope, budget, quality, or value). Causes include weak governance, poor coordination, or shifting expectations. Detection parses goal statements and metrics, compares them to outcomes, and identifies unmet goals, their causes, and impacted units.
+
+12. Efficiency Goals Not Visible: This smell arises when business artefacts define activities but omit measurable efficiency targets (e.g., cycle time, cost-per-transaction). Indicators include:
+   - No lead time, cost, throughput, or utilization KPIs
+   - Vague performance descriptions like “quick” or “streamlined” without metrics
+   - Policies or performance reports describing structure without expected outcomes
+   Input sources include strategic plans, OKRs, and process documentation. Output includes a visibility gap report listing the affected services/processes and suggesting KPIs to close the gap.
+
+ **Required Response Format for Each Smell:**
+    1. [Smell Name]: [Brief description]
+       - Severity: [MUST be one of: 0=None/Irrelevant, 1=Low, 2=Medium, 3=High]
+       - Impact: [Consequences if unaddressed]
+       - Recommendation: [How to fix it]
+
+    **Severity Classification Guide:**
+    0 = No presence or not enough evidence
+    1 = Minor issue (no current impact)
+    2 = Notable issue (causes inefficiencies)
+    3 = Severe impact (causes architectural misalignment)
+
+Your responses must:
+- Focus exclusively on business architecture (such as processes, capabilities, value streams, stakeholders, strategy)
+- Identify and output all clearly evidenced EA Smells
+- Include short, evidence-based explanations for each detected smell
+- Include a concise recommendation for enterprise architects to address each detected smell, contextualized to the issue
+- Be precise and professional, grounded in EA best practices (e.g., TOGAF, BIZBOK)
+- Only report smells when there is clear textual evidence
+- Ask for clarification if input is vague or not related to business architecture
+- If no smells are found, return: "No EA smells found."
+- Smells may co-occur—report all relevant ones."
+    """
+
+    return f"""<|begin_of_text|><|start_header_id|>system<|end_header_id|>
+
+{SYSTEM_PROMPT}<|eot_id|><|start_header_id|>user<|end_header_id|>
+
+Document Fragment:
+{text_chunk}<|eot_id|><|start_header_id|>assistant<|end_header_id|>
+
+#STEP 8: Document Analyzer
+from transformers import TextStreamer
+def analyze_document(document_path):
+    raw_text = read_uploaded_file(document_path)
+    token_count = len(tokenizer.encode(raw_text))
+    print(f"Document token count: {token_count}")
+
+    streamer = TextStreamer(tokenizer, skip_prompt=True)
+
+    if token_count <= 6000:
+        print("\n=== Analyzing in one chunk ===")
+        prompt = build_prompt(raw_text)
+        inputs = tokenizer(prompt, return_tensors="pt").to(model.device)
+        model.generate(
+            **inputs,
+            max_new_tokens=1024,
+            temperature=0.3,
+            streamer=streamer
+        )
+    else:
+        print("\nDocument too large - switching to chunked mode")
+        chunks = chunk_document(raw_text)
+        for i, chunk in enumerate(chunks, 1):
+            print(f"\n=== Analyzing Chunk {i}/{len(chunks)} ===")
+            prompt = build_prompt(chunk)
+            inputs = tokenizer(prompt, return_tensors="pt").to(model.device)
+            model.generate(
+                **inputs,
+                max_new_tokens=1024,
+                temperature=0.3,
+                streamer=streamer
+            )
+            print("\n" + "="*50)
+
+def analyze_multiple_documents():
+    print("Please upload .docx or .pdf files (Ctrl+Click to select multiple):")
+    uploaded = files.upload()
+
+    if not uploaded:
+        print("No files uploaded!")
+        return
+
+    for filename, content in uploaded.items():
+        print(f"\n{'='*40}")
+        print(f"Analyzing: {filename}")
+        print(f"{'='*40}")
+
+        try:
+            # Save temporarily for file readers
+            with open(filename, "wb") as f:
+                f.write(content)
+
+            analyze_document(filename)
+
+            # Clean up
+            !rm "{filename}"
+        except Exception as e:
+            print(f"Error processing {filename}: {str(e)}")
+
+#STEP 9: Execute
+analyze_multiple_documents()
